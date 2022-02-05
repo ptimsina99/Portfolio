@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------------------
 
--- Views of the data to be used in Tabloid Dashboard
+-- Views of the data to be used in Tableau Dashboard
 
 Create View PercentVaccinated as
 Select death.continent, death.location, death.date, death.population, vac.new_vaccinations, 
